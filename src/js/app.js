@@ -1,6 +1,6 @@
 import NewsWidget from './NewsWidget';
 
-const URL = 'http://localhost:7070/';
+const URL = 'https://ahj-workers-3-backend.herokuapp.com/';
 
 if (navigator.serviceWorker) {
   window.addEventListener('load', async () => {
